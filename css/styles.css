@@ -174,7 +174,7 @@ letter-spacing: 0.02em;
 color: var(--secondary-color-text);
 }
 
-.visually-hidden{
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
@@ -185,6 +185,7 @@ color: var(--secondary-color-text);
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+
 }
 
 
