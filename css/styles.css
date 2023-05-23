@@ -132,6 +132,19 @@ color: var(--secondary-color-text);
 
 /*наш напрямок*/
 
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 .page-our-way{
 display: flex;
 align-items: center;
@@ -157,19 +170,6 @@ gap: 24px;
 }
 
 /*наш напрямок*/
-
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
 
 .text-main-our-way{
 font-weight: 500;
