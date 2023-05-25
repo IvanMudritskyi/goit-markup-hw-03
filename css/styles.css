@@ -419,7 +419,7 @@
    padding: 32px 16px;
    }
    
-   .hero-portfolio{
+   .hero-portfolio {
         position: absolute;
         width: 1px;
         height: 1px;
@@ -432,11 +432,11 @@
         overflow: hidden;
       }
    
-    .img-pf{
-    padding-top: 96px;
-   padding-bottom: 120px;
+    .img-pf {
+         padding-top: 96px;
+         padding-bottom: 120px;
    
-   }
+        }
    
    
    .main-but-pf{
