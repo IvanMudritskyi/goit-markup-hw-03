@@ -6,7 +6,6 @@
     --button-color-text: #4D5AE5;
     --button-color-bg: #F4F4FD;
     --main-background-color: #FFFFFF;
-    --accent-color: #2196f3;
     --hero-background-color:#2E2F42;
     --main-but-pf-border:#e7e9fc;
 }
@@ -67,33 +66,27 @@ margin-right: 76px;
  
 }
 
-.menu-link{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    padding: 24px 0;
-    display: block;
-    color: #2e2f42;}
-    
-.menu-link:hover,
-.menu-link:focus{
-    color: #404BBF;
-}
-
 .contact-link{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
  padding: 24px 0;
 margin-left: auto;
-color: var(--secondary-color-text);
-}
 
-.contact-link:hover,
-.contact-link:focus{
-    color: #404BBF;
-}
+
+color: var(--secondary-color-text);}
+
+.menu-link{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+padding: 24px 0;
+display: block;
+color: #2e2f42;}
+
+.link:hover,
+.link:focus{color: #404BBF;}
 
 .button-hero:hover,
 .button-hero:focus{background-color: #404BBF; }
@@ -112,10 +105,13 @@ color: var(--secondary-color-text);
     justify-content: space-between;
 }
 
+
+
 .contact-list{
     display: flex;
     align-items: center;
-    gap: 40px;
+   
+gap: 40px;
 }
 
 .page-navigation {
@@ -126,30 +122,18 @@ color: var(--secondary-color-text);
 .menu {
     display: flex;
     gap: 40px;
+    
 }
 
 /* ================= HERO ================= */
 
 /*наш напрямок*/
 
-.visually-hidden {
-    position: absolute;
-    white-space: nowrap;
-    width: 1px;
-    height: 1px;
-    overflow: hidden;
-    border: 0;
-    padding: 0;
-    clip: rect(0 0 0 0);
-    clip-path: inset(50%);
-    margin: -1px;
-}
-
 .page-our-way{
 display: flex;
 align-items: center;
-}
 
+}
 .list-our-way{
     width: calc((100% - 72px) / 4);
     
@@ -167,8 +151,10 @@ padding-bottom: 120px;
 .our-direction{
 display: flex;
 gap: 24px;
-}
 
+
+
+}
 /*наш напрямок*/
 
 .text-main-our-way{
@@ -177,14 +163,28 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
-color: var(--previous-color-text);
-}
+
+color: var(--previous-color-text);}
 
 .text-minor-our-way{
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--secondary-color-text);}
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
 
 .container{
 width: 1158px;
@@ -210,10 +210,12 @@ max-width: 496px;
 /*секція-герой-головна*/
 .hero{
 text-align: center;
-padding: 188px 0 188px 0;
-background-color:var(--hero-background-color);
-}
 
+padding: 188px 0 188px 0;
+
+background-color:var(--hero-background-color);
+
+}
 /*кнопка-головна*/
 .button-hero{
     display: block;
@@ -225,9 +227,9 @@ background-color:var(--hero-background-color);
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    padding: 16px 32px;
-    border: none;
-    border-radius: 4px ;
+padding: 16px 32px;
+border: none;
+border-radius: 4px ;
     color: #FFFFFF;
      background-color: #4D5AE5;}
 
@@ -235,7 +237,7 @@ background-color:var(--hero-background-color);
 .text-hero{
     margin-bottom: 48px;
     color: var(--third-color-text);
-    background-color: #2E2F42;}
+background-color: #2E2F42;}
 
 
 /*Що ми робимо*/
@@ -297,6 +299,7 @@ color: var(--previous-color-text);}
     border-radius: 0px 0px 4px 4px;
    
 }
+
 
 .text-main-team{
 font-weight: 700;
@@ -370,8 +373,8 @@ color: var(--footer-text-color);}
 }
 
 .text-minor{
-
-}
+       
+    }
 
 
 .text-minor-pf{
@@ -388,10 +391,12 @@ color: var(--footer-text-color);}
     gap: 24px;
     justify-content: center;
     margin-bottom: 72px;
-}
+    
 
+}
 .item{
     flex-basis: calc((100% - 20px) / 9);
+   
 }
 
 
@@ -403,6 +408,7 @@ color: var(--footer-text-color);}
     border: 1px;
     border-radius: 4px;
     flex-direction: row;
+    
 }
 
 .list-portfolio{
@@ -410,6 +416,9 @@ color: var(--footer-text-color);}
     flex-wrap: wrap;
     gap: 24px;
     row-gap: 48px;
+   
+    
+    
 }
 
 .list-pf{
@@ -447,13 +456,17 @@ padding-bottom: 120px;
         background-color: var(--button-color-bg);
 }
 
-.team-list-item{ 
-    background-color: var(--main-background-color);
+.team-list-item{ background-color: var(--main-background-color);
+
 }
 
 .main-but-pf:hover,
 .main-but-pf:focus{
     border: 1px solid transparent;
      color: #FFFFFF;
-    background-color: #404BBF;
-}
+    background-color: #404BBF;}
+
+
+
+
+    
