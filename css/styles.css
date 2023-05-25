@@ -129,10 +129,8 @@
     gap: 40px;
    }
    
-   /* ================= HERO ================= */
-   
-   /*наш напрямок*/
-   
+   /* ---- HERO ---- */
+         
    .visually-hidden {
     position: absolute;
     width: 1px;
