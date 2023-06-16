@@ -100,11 +100,14 @@
    .button-hero:focus{background-color: #404BBF; }
    
    /* ================= HEADER ================= */
+   .page-header{
+    border-bottom: 1px solid #E7E9FC;
+   }
    .page-header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-   }
+     }
    
    .contact-list{
     display: flex;
